@@ -1,23 +1,21 @@
 const lightCodeTheme = require('prism-react-renderer').themes.github;
 const darkCodeTheme = require('prism-react-renderer').themes.dracula;
-import remarkMath from 'remark-math';
-import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'OER Course Title',
-  tagline: 'OER Tag/Keyword',
+  title: 'Getting Started',
+  tagline: 'Getting Started',
   url: 'https://seneca-ictoer.github.io/',
-  baseUrl: '/OERTemplate/',
+  baseUrl: '/',
   trailingSlash: false,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'seneca-ictoer',
-  projectName: 'OERTemplate',
+  projectName: 'GettingStarted',
   themeConfig: {
     navbar: {
-      title: 'OER Course Title',
+      title: 'Getting Started',
       logo: {
         alt: 'Seneca Polytechnic',
         src: 'img/logo.svg',
@@ -37,10 +35,11 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'OER Course Title',
+          title: 'Getting Started',
           items: [
             {
-              html: `<a href='#' id='pwa-button' class='footer__link-item' hidden>Install as an App</a>`,
+              label: 'Contents',
+              to: '/',
             },
           ],
         },
@@ -59,23 +58,13 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          editUrl: 'https://github.com/catherine-leung/OERTemplate/tree/main',
-          remarkPlugins: [remarkMath],
-          rehypePlugins: [[rehypeKatex, { strict: false }]],
+          editUrl: 'https://github.com/Seneca-ICTOER/GettingStarted/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       },
     ],
-  ],
-  stylesheets: [
-    {
-      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
-      type: 'text/css',
-      integrity: 'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
-      crossorigin: 'anonymous',
-    },
   ],
   clientModules: [require.resolve('./pwaCustomButton.js')],
   plugins: [
