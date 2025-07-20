@@ -6,7 +6,7 @@ module.exports = {
   title: 'Getting Started',
   tagline: 'Getting Started',
   url: 'https://seneca-ictoer.github.io/',
-  baseUrl: '/',
+  baseUrl: '/GettingStarted/',
   trailingSlash: false,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
