@@ -20,7 +20,7 @@ You will require:
 	- RAM: 16GB
 	- CPU/Processor: Core 5 processor or better \(Core 7 preferred\)
 	- Storage: 1TB Solid State Drive \(SSD\) or more
-	- GPU/Graphics: There is no set minimum requirement (but suggest something with 8BG VRAM or more)
+	- GPU/Graphics: There is no set minimum requirement (but suggest something with 8GB VRAM or more)
 	- Peripherals: Keyboard, mouse/trackpad, webcam, microphone
 
 :::info Note
