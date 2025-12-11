@@ -16,11 +16,12 @@ You will require:
 
 ### Windows Hardware
 
-- A computer running **Windows** 10 \(or 11\). Recommended minimum specifications are:
-  - RAM: 16GB
-  - Processor: i5 processor \(i7 or M processor preferred\)
-  - Storage: 512GB Solid State Drive \(SSD\) \(1TB preferred\)
-  - Peripherals: Keyboard, mouse/trackpad, webcam, microphone
+- A computer running **Windows** 11 (Professional NOT Home). Recommended minimum specifications are:
+	- RAM: 16GB
+	- CPU/Processor: Core 5 processor or better \(Core 7 preferred\)
+	- Storage: 1TB Solid State Drive \(SSD\) or more
+	- GPU/Graphics: There is no set minimum requirement (but suggest something with 8BG VRAM or more)
+	- Peripherals: Keyboard, mouse/trackpad, webcam, microphone
 
 :::info Note
 
