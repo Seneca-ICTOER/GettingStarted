@@ -16,17 +16,17 @@ You will require:
 
 ### Windows Hardware
 
-- A computer running **Windows** 11 (Professional NOT Home). Recommended minimum specifications are:
+- A computer running **Windows 11 Professional** (NOT: Home). The recommended minimum specifications are:
 	- RAM: 16GB
-	- CPU/Processor: Core 5 processor or better \(Core 7 preferred\)
+	- CPU/Processor: \(Intel: Core-5\) or \(AMD: Ryzen-5\) processor or better
 	- Storage: 1TB Solid State Drive \(SSD\) or more
-	- GPU/Graphics: There is no set minimum requirement (but suggest something with 8GB VRAM or more)
+	- GPU/Graphics: There is no set minimum requirement (suggest something with 8GB VRAM or more)
 	- Peripherals: Keyboard, mouse/trackpad, webcam, microphone
 
 :::info Note
 
 - **ARM-based** Windows machines are not recommended as the College VPN does not support ARM.
-- Windows 10 is no longer available from Seneca. You are responsible for obtaining your own licensed operating system.
+- Windows Operating system is no longer available from Seneca. You are responsible for obtaining your own licensed operating system.
   :::
 
 ### Mac OSX Hardware
