@@ -19,7 +19,7 @@ a VPN client must be running and connected on your system.
 
 - [GlobalProtect VPN](https://students.senecapolytechnic.ca/spaces/186/it-services/wiki/view/1024/vpn) - See the Students section and install on your system.
 
-### Visual Studio 2022 (Community Edition)
+### Visual Studio 2026 (Community Edition)
 
 The Visual Studio IDE \(Integrated Development Environment\) is a professional-grade development tool widely used by industry leaders
 
