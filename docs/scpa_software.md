@@ -39,56 +39,64 @@ The Microsoft 365 suite of applications is free to install on your personal comp
   If you have older or other versions of Microsoft Office apps already installed, it is strongly recommended that you uninstall them before installing Office 365.
   :::
 
-### Developement Tools
+### Development Tools
 
-#### Visual Studio
+#### Windows (Visual Studio Community)
 
-The Visual Studio IDE \(Integrated Development Environment\) is a professional-grade development tool widely used by industry leaders
+The Visual Studio Community version IDE \(Integrated Development Environment\) is a professional-grade development tool widely used by industry leaders. [Visual Studio - Community Edition](https://visualstudio.microsoft.com/free-developer-offers/) is free!
 
-- [Visual Studio - Community Edition](https://visualstudio.microsoft.com/free-developer-offers/) is free!
-
-:::note Mac OSX
-Visual Studio is not available for Mac OS. Students who wish to use Mac OS to do their work can alternatively use the following tools:
-
-- **XCode**: [Follow these instructions to use XCode](https://www.cs.auckland.ac.nz/~paul/C/Mac/xcode/)
-- **Visual Studio Code**: [Follow these instructions to use Visual Studio Code](https://www.cs.auckland.ac.nz/~paul/C/Mac/)
-
-**_Thanks to Dr. P. Denny of The University of Aukland_**
+:::note Studio vs Code
+Do not confuse Visual **Studio** with Visual Studio **Code**! Visual Studio **Code** does not install a C/C++ compiler and requires many extra steps to configure for C/C++ development. You should install **Visual Studio Community**!
 :::
 
-### VPN ([Virtual Private Network](https://en.wikipedia.org/wiki/Virtual_private_network))
+- Download VS Community installer application: [Direct Download](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Stable&version=VS18&source=VSLandingPage&cid=2500&passive=false)
 
-To access Seneca services and servers, a VPN client must be running and connected on your system.
+- Execute the downloaded installer application \(**NOTE**: use the defaults unless you know exactly what you are doing\)
+- When prompted for the \"**Workloads**\", you only need to select **`Desktop development with C++`**. This option is located in the section **\"Desktop and Mobile\"**:
 
-- [GlobalProtect VPN](https://students.senecapolytechnic.ca/spaces/186/it-services/wiki/view/1024/vpn) - See the Students section and install on your system.
-- See below for the Secure Shell and Secure File Transfer Protocol clients used to access the Matrix server where you submit and run acceptance testing on your C programs.
+  <img width="350" src="./img/vscworkflow.png"/>
 
-### SFTP Client \(Secured File Transfer Protocol\)
+  **NOTE**: If you missed this step, you can always run the installer again, only this time **modify** your installation and add the workflow accordingly.
 
-Required for transferring files from your computer to Seneca's server
+- Click the **`Install`** button located at the bottom-right corner to complete the installation
 
-- [WinSCP](https://winscp.net/eng/download.php) (installation details below)
-- [FileZilla](https://www.ssh.com/academy/ssh/filezilla)
+#### Mac OSX (xCode)
 
-### SSH Client \(Secure Shell\)
+The C/C++ development tools in Visual **Studio** is not available for Mac OS. Students who wish to use Mac OS to do their work can alternatively use the following tools \(_Thanks to Dr. P. Denny of The University of Aukland!_\):
 
-Required for interacting with Seneca servers in a terminal shell environment
+- **xCode**: [Follow these instructions to use xCode](https://www.cs.auckland.ac.nz/~paul/C/Mac/xcode/)
+  - This will install the C/C++ compiler, IDE, Git Tools, and the command line tools
+- **Visual Studio Code**: After installing xCode, you can optionally use the VS Code IDE for your code development ([Follow these instructions to use Visual Studio Code](https://www.cs.auckland.ac.nz/~paul/C/Mac/))
+
+### Git Tools
 
 #### Windows
 
-- [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) \(installation details below\)
+Git Tools Download: https://git-scm.com/install/windows
 
-#### MacOS
+- Select the **\"Git for Windows/x64 Setup\"** link
+- Execute the downloaded installer and apply the defaults
+- It is a good idea to logout of your machine and back in after installation \(there are environment variables that need to be active to use the git tools effectively\).
 
-- Use the built-in SSH terminal (Finder, Go -> Utilities) OR
-- [PuTTY](https://www.ssh.com/academy/ssh/putty/mac) for Mac OSX
+#### Mac OSX
 
-#### Linux
+It is not necessary to explicitly install the Git Tools if you installed xCode \(above\). It is strongly advised you install xCode which comes packaged with the Git Tools as part of that installation. However, if you do not have xCode, you can still install the Git tools:
 
-- Use the preinstalled [OpenSSH](https://www.ssh.com/academy/ssh/openssh) terminal OR
-- Other Options including [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+- https://git-scm.com/install/mac
+- Follow the installation instructions
+
+### VPN ([Virtual Private Network](https://en.wikipedia.org/wiki/Virtual_private_network))
+
+When you are off-campus and wish to access Seneca's servers/services, you will need to use a specific VPN client. Please reference the following document for instructions:
+
+- [GlobalProtect VPN](https://students.senecapolytechnic.ca/spaces/186/it-services/wiki/view/1024/vpn) - See the Students section and install on your system.
+
+:::note On-Campus
+When you are on-campus using a lab computer or your device is connected using Seneca's secured SenecaNet WIFI \(not the GUEST option\), the VPN is NOT required. In fact, when you connect to the VPN on-site, it will not work. Only use the VPN when you are off-site.
+:::
 
 ## Popular Seneca Web Portals
 
 - [https://my.senecapolytechnic.ca](https://my.senecapolytechnic.ca) where your courses reside inside the Blackboard Learning Management System
+- [https://myseneca.ca](https://myseneca.ca) to access your Microsoft Outlook email in your browser
 - [SCPA](https://www.senecapolytechnic.ca/school/computer-programming-and-analysis.html) CPP and CPA Program details
