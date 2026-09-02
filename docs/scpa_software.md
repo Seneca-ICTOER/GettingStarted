@@ -49,16 +49,28 @@ The Visual Studio Community version IDE \(Integrated Development Environment\) i
 Do not confuse Visual **Studio** with Visual Studio **Code**! Visual Studio **Code** does not install a C/C++ compiler and requires many extra steps to configure for C/C++ development. You should install **Visual Studio Community**!
 :::
 
-- Download VS Community installer application: [Direct Download](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Stable&version=VS18&source=VSLandingPage&cid=2500&passive=false)
+- **Visual Studio Community**:
 
-- Execute the downloaded installer application \(**NOTE**: use the defaults unless you know exactly what you are doing\)
-- When prompted for the \"**Workloads**\", you only need to select **`Desktop development with C++`**. This option is located in the section **\"Desktop and Mobile\"**:
+  - Download VS Community installer application: [Direct Download](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Stable&version=VS18&source=VSLandingPage&cid=2500&passive=false)
 
-  <img width="350" src="./img/vscworkflow.png"/>
+  - Execute the downloaded installer application \(**NOTE**: use the defaults unless you know exactly what you are doing\)
+  - When prompted for the \"**Workloads**\", you only need to select **`Desktop development with C++`**. This option is located in the section **\"Desktop and Mobile\"**:
 
-  **NOTE**: If you missed this step, you can always run the installer again, only this time **modify** your installation and add the workflow accordingly.
+    <img width="350" src="./img/vscworkflow.png"/>
 
-- Click the **`Install`** button located at the bottom-right corner to complete the installation
+    After selecting the C/C++ workflow, on the **RIGHT-SIDE** panel in the section **\"Desktop development with C++\"**, **UNCHECK/DE-SELECT** the two options for Copilot integration \(_you can always add this back AFTER you learn the foundations of programming_\):
+
+    <img width="350" src="./img/vscworkflow-nocopilot.png"/>
+
+    **NOTE**: If you missed these steps, you can always run the installer again, only this time **modify** your installation and add the workflow accordingly.
+
+  - Click the **`Install`** button located at the bottom-right corner to complete the installation
+
+- **Visual Code** (_Optional_):
+
+  This section is for those who are more comfortable or interested in using **Visual Studio Code** to develop in as their primary IDE \(should only be considered if you have already installed **Visual Studio Community**\).
+
+  - Refer to Microsoft's documentation for VS Code installation and configuration for C/C++ development [VS Code for C/C++ \(https://code.visualstudio.com/docs/cpp/config-msvc\)](https://code.visualstudio.com/docs/cpp/config-msvc)
 
 #### Mac OSX (xCode)
 
