@@ -41,13 +41,15 @@ An Intel based Mac or MacBook is acceptable as it will support side-loading of W
 
 :::info Note
 
-- **You will have to run Windows on your Mac** in order to run the software required for your courses. Windows can be loaded a few different ways:
+- **You may need to run Windows on your Mac** in order to run some of the software required for your courses. Windows can be loaded a few different ways:
   _ **Bootcamp** (Intel processor only)
   _ **VMWare** (free) allows you to run Windows virtually
   _ **Parallels** (50% off for students)
   _ Parallels and Windows are available here for SDDS students: **https://senecapolytechnic.onthehub.com/WebStore/Welcome.aspx**
   _ A copy of Windows Education is available free for SDDS students.
-  _ Apple offers bonus education discounts on the Air and 13” Pro about 6 weeks before and after the start of fall semester  
+  _ Apple offers bonus education discounts on the Air and 13” Pro about 6 weeks before and after the start of fall semester
+
+  - In addition to the above, there are also options to run windows from containers on your mac.  The most important part is to get enough hardware so that you can do these more intensive processes.
   :::
 
 ### Internet
