@@ -74,7 +74,7 @@ Do not confuse Visual **Studio** with Visual Studio **Code**! Visual Studio **Co
 
 #### Mac OSX (xCode)
 
-The C/C++ development tools in Visual **Studio** is not available for Mac OS. Students who wish to use Mac OS to do their work can alternatively use the following tools \(_Thanks to Dr. P. Denny of The University of Aukland!_\):
+Students who wish to use Mac OS to do their work can alternatively use the following tools \(_Thanks to Dr. P. Denny of The University of Aukland!_\):
 
 - **xCode**: [Follow these instructions to use xCode](https://www.cs.auckland.ac.nz/~paul/C/Mac/xcode/)
   - This will install the C/C++ compiler, IDE, Git Tools, and the command line tools
